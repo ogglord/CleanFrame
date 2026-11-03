@@ -26,8 +26,8 @@
   ];
   var PRIMARY = PRIMARY_APPS.map(function (a) { return a.id; }), APPS = PRIMARY_APPS.slice(), ALPHA = [];
   // HDMI shortcuts shown as Home items. port is the TV's HDMI number.
-  var INPUT_APPS = [{ id: 'appletv-hdmi', name: 'Apple TV', mark: true, brand: 'appletv', appId: 'appletv-hdmi', port: 1 }];
-  var DEFAULT_HOME = ['appletv-hdmi'];
+  var INPUT_APPS = [{ id: 'shield-hdmi', name: 'SHIELD', mark: false, appId: 'shield-hdmi', port: 3 }];
+  var DEFAULT_HOME = ['shield-hdmi'];
   APPS = APPS.concat(INPUT_APPS);
   var WALLS = window.CleanFrameWallpapers || [{ id: 'misty', name: 'Misty coast', tone: 'light', ut: { tr: 'mist', br: 'mist' }, frostVeil: .20 }];
   var ADAPTIVE_INK = window.CleanFrameAdaptiveInk || {};
